@@ -10,7 +10,6 @@ VyOS、Windows、WSL、Ubuntu、Kali Linuxの導入と、IP・経路・DNS・SSH
 - [教員の準備](teacher/tasks.md)
 - [英単語の事前学習](vocabulary/preparation.md)
 - [教材作成方針と原稿の確認](publishing/README.md)
-- [公開・非公開の分担](REPOSITORY-SPLIT.md)
 
 実験手順、実験用の配布ファイル、評価資料、実機の検証記録、旧エージェントのエクスポートは非公開の別リポジトリで管理します。将来のM365 Copilotエージェントには、公開後の本リポジトリをナレッジとして設定する予定です。ツールの公開情報一覧とエージェントの設定は、今回の分離には含みません。
 
