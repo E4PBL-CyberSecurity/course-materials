@@ -1,0 +1,13 @@
+archive/
+dvwa/
+bettercap/
+verification/
+copilot-agent/solution/
+handbook/12-experiments.md
+*.pdf
+!docs/pdf/*.pdf
+!docs/index.pdf
+.env
+.env.*
+*.pem
+*.key

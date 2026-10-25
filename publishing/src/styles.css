@@ -1,0 +1,15 @@
+:root { --sl-content-width: 55rem; }
+.sl-markdown-content { line-height: 1.85; }
+.sl-markdown-content table { font-size: .9rem; }
+.sl-markdown-content caption { caption-side: top; text-align: left; font-weight: 600; margin-bottom: .5rem; }
+.sl-markdown-content pre { tab-size: 4; }
+.sl-markdown-content img { max-width: 100%; height: auto; }
+.sl-markdown-content figcaption { font-size: .875rem; color: var(--sl-color-gray-2); margin-top: .5rem; }
+@media (max-width: 50rem) {
+  .sl-markdown-content table { display: block; overflow-x: auto; max-width: 100%; }
+  .sl-markdown-content th, .sl-markdown-content td { min-width: 9rem; }
+}
+@media print {
+  header, .sidebar, .right-sidebar, .pagination-links, .expressive-code .copy { display: none; }
+  .main-pane { margin: 0; padding: 0; width: 100%; }
+}

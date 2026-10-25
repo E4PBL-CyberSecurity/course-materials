@@ -1,0 +1,7 @@
+node_modules/
+.astro/
+dist/
+public/
+src/content/docs/
+font-caches.db*
+verification.json

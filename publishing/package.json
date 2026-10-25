@@ -1,0 +1,17 @@
+{
+  "name": "e4pbl-network-documents",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node check.mjs",
+    "preview": "astro preview",
+    "check:sources": "node check-sources.mjs",
+    "test:sources": "node --test check-sources.test.mjs"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "0.34.8",
+    "@minitype/minitype": "0.1.7",
+    "astro": "5.18.2"
+  }
+}
