@@ -6,7 +6,7 @@ import test from 'node:test';
 import { checkScope, checkSources } from './check-sources.mjs';
 
 test('public scope rejects private procedures, fixtures, exports and old PDFs', () => {
-  for (const file of ['handbook/12-experiments.md', 'dvwa/pbl-experiments.zip', 'bettercap/experiment.md', 'archive/old.md',
+  for (const file of ['handbook/12-experiments.md', 'handbook/01-dvwa-setup.md', 'handbook/02-web-experiments.md', 'handbook/03-arp-dns.md', 'dvwa/pbl-experiments.zip', 'bettercap/experiment.md', 'archive/old.md',
     'copilot-agent/solution/bot.xml', 'verification/attacks.json', 'handbook.pdf'])
     assert.throws(() => checkScope([file], 'public-network'));
   assert.doesNotThrow(() => checkScope(['handbook/09-router2.md', 'network-construction/network.png'], 'public-network'));

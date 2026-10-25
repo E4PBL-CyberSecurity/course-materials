@@ -8,7 +8,7 @@ export function checkScope(files, scope) {
   if (scope !== 'public-network') return;
   for (const file of files) {
     const normalized = file.replaceAll('\\', '/');
-    assert(!/^(?:dvwa\/|bettercap\/|archive\/|copilot-agent\/solution\/|verification\/|handbook\/12-)/.test(normalized),
+    assert(!/^(?:dvwa\/|bettercap\/|archive\/|copilot-agent\/solution\/|verification\/|handbook\/(?:12-|01-dvwa-setup\.md$|02-web-experiments\.md$|03-arp-dns\.md$))/.test(normalized),
       `Private material in public scope: ${file}`);
     assert(!file.endsWith('.pdf'), `Existing PDF in public source scope: ${file}`);
   }
