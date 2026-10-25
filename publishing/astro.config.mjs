@@ -10,7 +10,7 @@ export default defineConfig({
     defaultLocale: 'root', locales: { root: { label: '日本語', lang: 'ja' } },
     sidebar: [
       ...documents.slice(0, publication.chapterCount).map(({ label, slug }) => ({ label, slug })),
-      { label: '別冊・教員用・検証記録', collapsed: true,
+      { label: '別冊・教員用', collapsed: true,
         items: documents.slice(publication.chapterCount).map(({ label, slug }) => ({ label, slug })) },
     ],
     tableOfContents: { minHeadingLevel: 1, maxHeadingLevel: 3 },

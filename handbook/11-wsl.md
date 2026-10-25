@@ -190,6 +190,6 @@ getent ahostsv4 web.alf.lab
 
 ## 完了の確認
 
-Linuxの登録名・版、`whoami`の結果がKali Linuxでは`kali`、Ubuntuでは`ubuntu`であること、ミラーモード、班LANのIP・経路、指定DNSと通常の名前解決の結果を記録する。実験サービスの導入は、教員が案内する非公開教材で行う。
+Linuxの登録名・版、`whoami`の結果がKali Linuxでは`kali`、Ubuntuでは`ubuntu`であること、ミラーモード、班LANのIP・経路、指定DNSと通常の名前解決の結果を記録する。
 
 Windowsの版の確認：[Microsoft公式：Windowsデバイスに関する情報を検索する](https://support.microsoft.com/ja-jp/windows/experience/find-information-about-your-windows-device)。
