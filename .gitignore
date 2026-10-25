@@ -11,3 +11,8 @@ handbook/12-experiments.md
 .env.*
 *.pem
 *.key
+firewall/
+handbook/01-dvwa-setup.md
+handbook/02-web-experiments.md
+handbook/03-arp-dns.md
+handbook/04-vyos-firewall.md
